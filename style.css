@@ -1,0 +1,67 @@
+.container{
+display:flex;
+flex-wrap: wrap;
+}
+.clicavelDiv {
+    cursor: pointer;
+    transition: box-shadow 0.1s;  
+  }
+  .clicavelDiv:active {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+#form {
+    width: 500px;
+    margin: 0 auto;
+
+  }
+  
+  #form .campo-input {
+    padding: 10px;
+    background-color: #eeeeee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: calc(100% - 22px); /* Considerando o padding */
+}
+  #form input, #form select {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  #form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+ 
+  
+  #form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #b3b3b3;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+  }
+  
+  #form button:hover {
+    background-color: #29e7f5;
+  }
+  img{
+    width: 80px;
+    padding: 10px;
+  }
+  
+
+ .texto-abaixo-imagem{
+        text-align: center;
+        margin-bottom: 10px;
+        
+
+    }
+
+.margem-sup{
+    margin-top: 10px;
+}
