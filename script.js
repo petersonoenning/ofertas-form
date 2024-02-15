@@ -17,3 +17,20 @@
         element.classList.toggle("selecionado");
     }
     
+
+    function minhaFuncao(element) {
+   
+        element.classList.toggle("selecionado");
+    }
+    
+    function confirmarCadastro() {
+        var confirma = confirm("Deseja realmente confirmar o cadastro?");
+        if (confirma) {
+            alert("Cadastro confirmado!");
+            limparCampos();
+        } else {
+            alert("Cadastro não confirmado.");
+            
+        }
+    }
+    
