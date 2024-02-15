@@ -30,7 +30,7 @@
             limparCampos();
         } else {
             alert("Cadastro não confirmado.");
-            
+            limparCampos();
         }
     }
     
