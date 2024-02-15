@@ -35,18 +35,27 @@ flex-wrap: wrap;
     margin-bottom: 5px;
   }
   
- 
-  
   #form button {
-    width: 100%;
+    width: 48%;
     padding: 10px;
     background-color: #b3b3b3;
     color: rgb(0, 0, 0);
-    border: none;
+    border: #b3b3b3;
+    border-radius: 5px;
     cursor: pointer;
     margin-top: 5px;
-  }
-  
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botoes-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
   #form button:hover {
     background-color: #29e7f5;
   }
