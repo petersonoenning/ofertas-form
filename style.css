@@ -44,6 +44,7 @@ flex-wrap: wrap;
     color: rgb(0, 0, 0);
     border: none;
     cursor: pointer;
+    margin-top: 5px;
   }
   
   #form button:hover {
